@@ -7,7 +7,7 @@
 	<context:component-scan base-package="jobless.dao" />
 	<context:component-scan base-package="jobless.model" />
 
-	<context:property-placeholder location="classpath:value.properties" />
+	<context:property-placeholder location="classpath:dbConfig.properties" />
 
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
